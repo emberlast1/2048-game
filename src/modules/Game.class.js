@@ -213,7 +213,9 @@ class Game {
     for (let row = 0; row < 4; row++) {
       for (let cell = 0; cell < 4; cell++) {
         if (this.board[row][cell] === 0) {
-          emptyTiles.push({ row, cell });
+          emptyTiles.push({
+            row, cell,
+          });
         }
       }
     }
